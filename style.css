@@ -1,0 +1,64 @@
+body{
+    font-family: 'Rowdies', cursive;
+}
+#address a{
+    display: block;
+    color: white;
+    transition: all 1s ease;
+}
+
+#address a:hover {
+    color: orange;
+}
+
+
+#navigation a{
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+#banner-part{
+    background-image: url('img/we.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+.dark-overlay{
+    background: rgba(0, 0, 0, 0.8);
+    min-height: 500px;
+}
+
+.process{
+    background: #f2ebe9;
+}
+
+.process p{
+    font-size: 16px;
+}
+
+.process i{
+    font-size: 80px;
+    color: #666;
+}
+
+.process .card{
+    border: none !important;
+    background: #ffffff;
+    border-bottom: 10px solid #17a2b8 !important;
+    transition: all .4s ease;
+}
+
+.process .card:hover {
+    border-bottom: 10px solid orange !important;
+}
+
+
+#blog-banner{
+    background-image: url('img/blog-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.8);
+    min-height: 200px;
+}
